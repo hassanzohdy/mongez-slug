@@ -1,20 +1,20 @@
 {
-  "name": "@mongez/slug",
-  "version": "1.0.0",
-  "description": "A utility to generate route slug.",
-  "main": "src/index.ts",
-  "dependencies": {
-    "slugify": "^1.6.5"
-  },
-  "keywords": [
-    "slug",
-    "route-slug",
-    "slugify"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hassanzohdy/mongez-skug"
-  },
-  "author": "hassanzohdy",
-  "license": "MIT"
+    "name": "@mongez/slug",
+    "version": "1.0.1",
+    "description": "A utility to generate route slug.",
+    "main": "src/index.ts",
+    "dependencies": {
+        "slugify": "^1.6.5"
+    },
+    "keywords": [
+        "slug",
+        "route-slug",
+        "slugify"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hassanzohdy/mongez-skug"
+    },
+    "author": "hassanzohdy",
+    "license": "MIT"
 }
