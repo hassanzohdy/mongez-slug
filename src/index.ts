@@ -1,3 +1,2 @@
-import { default as slug } from "./slug";
-
-export default slug;
+export { default as slug } from "./slug";
+export { slugify } from "./slug";

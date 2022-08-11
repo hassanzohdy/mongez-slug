@@ -13,9 +13,12 @@ Or
 ## Usage
 
 ```js
-import slug from '@mongez/slug';
+import slug from "@mongez/slug";
 
-slug('hello-world'); // hello-world
+// OR
+import { slugify } from "@mongez/slug";
+
+slug("hello-world"); // hello-world
 ```
 
 ## TODO

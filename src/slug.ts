@@ -1,5 +1,12 @@
-import slugify from "slugify";
-
 export default function slug(text: string): string {
-  return slugify(text).toLocaleLowerCase();
+  const replacer = /(\s+|\.|_|@|\/|\|)+/g;
+
+  return text
+    .replace(replacer, "-")
+    .replace(/(-)+/g, "-")
+    .replace(/^(-)+/, "")
+    .replace(/(-)+$/, "")
+    .toLowerCase();
 }
+
+export const slugify = slug;
