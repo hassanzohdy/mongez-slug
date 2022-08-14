@@ -1,6 +1,6 @@
 {
     "name": "@mongez/slug",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A utility to generate route slug.",
     "main": "src/index.ts",
     "keywords": [
